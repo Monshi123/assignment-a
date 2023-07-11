@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Section One Start */
+.section1{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 120px;
+}
+.beautiful-container{
+    display: flex;
+}
+.beautiful-text h1{
+    width: 380px;
+    font-size: 45px;
+    color: #272727;
+}
+.beautiful-text p{
+    width: 600px;
+    font-size: 20px;
+    line-height: 0.8cm;
+    color: rgba(39, 39, 39, 0.60);
+    margin-top: 20px;
+}
+.beautiful-text input{
+    padding: 10px 20px;
+    background-color: #E55473;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #272727;
+}
+.beautiful-text input:hover{
+    background-color: blue;
+}
+.beautiful-pic img{
+    width: 50%;
+    padding-left: 40px;
+}
+/* section two start */
+.section2{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hut-container{
+    display: flex;
+}
+.hut-text{
+    width: 80%;
+    margin-top: 80px;
+    text-align: center;
+}
+.hut-text h1{
+    width: 480px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #272727;
+}
+.hut-text p{
+    width: 450px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.hut-text input{
+    padding: 10px 20px;
+    background-color: #E55473;
+    border-radius: 8px;
+    border: none;
+    margin-top: 20px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #272727;
+}
+.hut-text input:hover{
+    background-color: blue;
+    transition: all ease 0.5s;
+}
+.hut-title{
+    color: #E55473;
+}
+.hut-pic img{
+    width: 80%;
+    margin-left: 20px;
+}
+/* section three Stat */
+.section3{
+    width: 100%;
+    height: 150vh;
+    padding-top: 30px;
+    background-color: rgba(231, 162, 177, 0.5);
+    ;
+}
+.instagram-text h2{
+    text-align: center;
+    font-size: 45px;
+    color: #272727;
+    font-weight: bold;
+}
+.instagram-text p{
+    width: 490px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    padding-left: 380px;
+}
+.instagram-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+.instagram-box{
+    width: 250px;
+    height: 290px;
+    border: none;
+    background-color: rgba(231, 162, 177, 0.5);
+}
+.instagram-box:hover{
+    background-color: blue;
+}
+.instagram-box img{
+    width: 100%;
+}
+.deals{
+    width: 84%;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../asset/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.deals-text h1{
+    font-size: 25px;
+    color: #272727;
+}
+.deals-text h5{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.deals-text input{
+    margin-top: 40px;
+}
+.deals-button-1{
+    padding: 8px 100px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: left;
+    outline: none;
+}
+.deals-button-2{
+    padding: 8px 20px;
+    background-color: #E55473;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+/* section four start */
+.section4{
+    width: 100%;
+    height: 160vh;
+    padding-bottom: 50px;
+}
+.featured-flowers-text{
+    margin-top: 80px;
+    text-align: center;
+}
+.featured-flowers-text h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: #272727;
+}
+.featured-flowers-text p{
+    width: 500px;
+    font-size: 20px;
+    padding-left: 380px;
+    margin-top: 20px;
+}
+.featured-flowers-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-top: 50px;
+}
+.featured-flowers-list-box1{
+    width: 230px;
+    height: 360px;
+    border: none;
+    background-color: #E55473;
+    border-radius: 300px 320px 0px 0px;
+}
+.featured-flowers-list-box1 img{
+    width: 100%;
+    padding-top: 40px;
+}
+.featured-flowers-list-box1 h5{
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: underline;
+}
+.featured-flowers-list-box2{
+    width: 230px;
+    height: 360px;
+    border: none;
+    background-color: #E55473;
+    border-radius: 300px 320px 0px 0px;
+}
+.featured-flowers-list-box2 img{
+    width: 100%;
+    padding-top: 90px;
+}
+.featured-flowers-list-box2 h5{
+    margin-top: 53px;
+    text-align: center;
+    text-decoration: underline;
+}
+.featured-flowers-list-box3{
+    width: 230px;
+    height: 360px;
+    border: none;
+    background-color: #E55473;
+    border-radius: 300px 320px 0px 0px;
+}
+.featured-flowers-list-box3 img{
+    width: 100%;
+    padding-top: 15px;
+}
+.featured-flowers-list-box3 h5{
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+.support-container{
+    width: 70%;
+    height: 250px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dbd8d8;
+    margin-left: 190px;
+}
+.support-sub-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.support-box{
+    width: 220px;
+    height: 150px;
+    border: none;
+}
+.support-box img{
+    padding: 10px 50px;
+}
+.support-box h4{
+    width: 220px;
+    text-align: center;
+    font-size: 14px;
+}
+/* section five start */
+.section5{
+    width: 100%;
+    height: 120vh;
+    background-color: #E55473;   
+}
+.summer-container-text h1{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: #272727;
+}
+.summer-container-text p{
+    width: 600px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 320px;
+}
+.summer-sub-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 80px;
+}
+.summer-pic-box{
+    width: 300px;
+    height: 350px;
+    border: none;
+}
+.summer-pic-box img{
+    width: 100%;
+}
+/* footer section start */
+footer{
+    width: 100%;
+    height: 70vh;
+    background-color: #111010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+.footer-title{
+    color: #E55473;
+}
+.footer-container h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.footer-container p{
+    margin-top: 30px;
+    width: 400px;
+    line-height: 0.7cm;
+}
+.footer-container h5{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #b3b0b0;
+}
